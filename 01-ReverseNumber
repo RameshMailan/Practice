@@ -1,0 +1,9 @@
+void main(){
+    int num=192,divident,remainder;
+    for(int i=1;i<=3;i++){
+        divident=num % 10;
+        remainder=remainder * 10+ divident;
+        num=num ~/ 10;
+    }
+    print("Reverse No is $remainder");
+}
